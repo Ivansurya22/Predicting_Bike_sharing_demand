@@ -3,12 +3,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load Data
-seasonal_data = pd.read_csv(r'D:\learning\data science\DICODING EDITION\submission\dashboard\seasonal_trend.csv')
-weather_data = pd.read_csv(r'D:\learning\data science\DICODING EDITION\submission\dashboard\weather_influence.csv')
-weekday_data = pd.read_csv(r'D:\learning\data science\DICODING EDITION\submission\dashboard\weekday_trend.csv')
-hourly_data = pd.read_csv(r'D:\learning\data science\DICODING EDITION\submission\dashboard\hourly_trend.csv')
-predictions = pd.read_csv(r'D:\learning\data science\DICODING EDITION\submission\dashboard\predictions_day.csv')
-rfm_data = pd.read_csv(r'D:\learning\data science\DICODING EDITION\submission\dashboard\rfm_analysis.csv')
+seasonal_data = pd.read_csv(r'\dashboard\seasonal_trend.csv')
+weather_data = pd.read_csv(r'\weather_influence.csv')
+weekday_data = pd.read_csv(r'\dashboard\weekday_trend.csv')
+hourly_data = pd.read_csv(r'\dashboard\hourly_trend.csv')
+predictions = pd.read_csv(r'\predictions_day.csv')
+rfm_data = pd.read_csv(r'\dashboard\rfm_analysis.csv')
 
 # Dashboard
 st.title("Bike Sharing Analysis Dashboard")
