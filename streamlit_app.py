@@ -27,4 +27,4 @@ hourly_data = filtered_hour_df.groupby('hr')['cnt'].mean().reset_index()
 st.line_chart(hourly_data, x='hr', y='cnt')
 
 st.header('RFM Analysis')
-st.dataframe(pd.read_csv('rfm_analysis.csv'))
+st.dataframe(pd.read_csv('dashboard/rfm_analysis.csv'))
